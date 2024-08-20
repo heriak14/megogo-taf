@@ -2,6 +2,7 @@
 ```bash
 ./gradlew clean test
 ```
+### Tests are executed in parallel by methods in 5 threads.
 ### Then you can generate Allure report using Allure CLI command:
 ```bash
 allure serve build/allure-results
